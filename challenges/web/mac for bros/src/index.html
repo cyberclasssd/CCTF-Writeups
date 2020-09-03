@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>mac shop</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+      function Verify(){
+        var checkpass = document.getElementById("pass").value;
+        if (encodeURIComponent(checkpass) == "cctf%7Burlenc0d%25nGye3h%40w%7D") {
+          alert("ya bro that is the flag");
+        }
+        else {
+          alert("na bro no mac n cheese 4 u my man");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="header">
+	  	<h1>mac shop for bros</h1>
+	  </div>
+    
+    <h2>mac n cheese station</h2>
+    <p>give password, get mac.</p>
+
+
+
+<div class="loginbox">
+<div style="text-align:center">
+<p>pls give right password to get mac</p>
+<form action="index.html" method="post">
+<input type="password" id="pass" />
+<br/>
+<input id="verify" type="submit" value="Verify" onclick="Verify(); return false;" />
+</form>
+</div>
+</div>
+
+
+    <div class="footer">
+      <p class="smalltext">mac for bros&copy;
+      </p>
+    </div> 
+
+  </body>
+
+</html>

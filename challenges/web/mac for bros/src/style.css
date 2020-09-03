@@ -1,0 +1,68 @@
+.header {
+    background-image: url("https://chowhound1.cbsistatic.com/thumbnail/1280/800/chowhound1.cbsistatic.com/assets/recipe_photos/11437_macaroni_cheese.jpg");
+    background-size: 100%;
+    padding: 50px;
+    text-align: center;
+    color: rgb(245, 239, 204);
+    font-family: "Comic Sans MS", cursive;
+    font-size: 50px;
+    letter-spacing: 0.2em;
+}
+
+.loginbox{
+  background-color: rgb(185, 127, 0);
+  margin: 5% 10%;
+  padding: 3%;
+}
+
+input{
+  background-color: rgb(250, 240, 180);
+  padding: 12px 20px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+  border: none;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 20px;
+}
+
+#verify{
+  background-color: rgb(236, 193, 0);
+  color: rgb(206, 134, 0);;
+}
+
+#verify:hover{
+  background-color: rgb(235, 211, 104);
+  transition-duration: 0.5s;
+}
+
+body{
+  margin: 0px;
+  font-family: "Comic Sans MS", cursive;
+  background-color: rgb(223, 176, 74);
+  color: rgb(255, 247, 222);
+}
+
+p{
+  margin: 5%;
+  font-size: 30px;
+}
+
+h2{
+  margin: 5%;
+  color: rgb(185, 111, 0);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.smalltext{
+  font-size: 10px;
+}
+
+.footer {
+    background-color: rgb(219, 163, 7);
+    padding: 10px;
+    text-align: center;
+}
+

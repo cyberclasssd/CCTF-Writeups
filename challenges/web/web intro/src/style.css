@@ -1,0 +1,62 @@
+.header {
+    background-image: url("https://wallpapercave.com/wp/wp4758334.jpg");
+    background-size: 100% ;
+    padding: 50px;
+    text-align: center;
+    color: rgb(239, 241, 247);
+    font-family: "VT323", 'Courier New', Courier, monospace;
+    font-size: 70px;
+    letter-spacing: 0.2em;
+}
+
+body{
+  margin: 0px;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(207, 214, 226);
+  color: rgb(118, 100, 158);
+}
+
+p{
+  margin: 3%;
+  font-size: 30px;
+}
+
+h2{
+  margin: 7% 3%;
+  color: rgb(230, 136, 133);
+  font-weight: bold;
+  font-size: 70px;
+  font-family: "VT323", 'Courier New', Courier, monospace;
+}
+
+.button {
+  transition-duration: 0.4s;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  background-color: rgb(235, 158, 181);
+  color: rgb(240, 234, 185);
+  padding: 2% 5%;
+  margin: 5% 40% 5% 40%;
+  border: none;
+}
+
+#hiddenMessage{
+  margin: 0% 5% 5%;
+}
+
+.button:hover {
+  background-color: rgb(212, 92, 118);
+  color: rgb(213, 217, 255);
+}
+
+.smalltext{
+  font-size: 10px;
+}
+
+.footer {
+    background-color: #b5bbd3;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Welcome to the CSS page! Here you find all of the magic behind making our website look pretty. Part 2/3 of the flag: 0_w3b_exp */

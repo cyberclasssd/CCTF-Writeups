@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url("Futura.otf") format("opentype");
+}
+
+html {
+  background-color: #eaedf3;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Futura', sans-serif;
+  color: rgb(78, 78, 206);
+  text-align: center;
+}
+
+body {
+  color: #787e85;
+font-size: 30px;
+}
+
+p{
+	text-align:center;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+.login-input {
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  border: none;
+  color: rgb(49, 49, 49);
+  padding: 15px;
+  background-color: #b3b6bd;
+  border-radius: 8px;  
+  font-family: 'Source Sans Pro', sans-serif;
+	margin: 10px 25%;
+	width: 50%;
+font-size: 30px;
+}
+
+.login-button {
+  background-color: #b30000;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  border: none;
+  color: rgb(241, 234, 218);
+  padding: 15px;
+  border-radius: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 25%;
+  margin: 10px 37% 10px 37%;
+font-size: 30px;
+}
+
+.login-button:hover {
+  background-color: #ec4d38;
+  transition-duration: 1s;
+}
+
+
+#login-div{
+  border: 1px solid rgb(121, 124, 129);
+  border-radius: 3px;
+  width: 60%;
+  height: 60%;
+  padding: 5px;
+  margin: auto;
+}

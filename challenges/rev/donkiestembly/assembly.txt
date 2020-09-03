@@ -1,0 +1,32 @@
+<+0>:	push   ebp
+<+1>:	mov    ebp,esp
+<+3>:	sub    esp,0x10
+<+6>:	mov    DWORD PTR [ebp-0x4],0x1000
+<+13>:	mov    eax,DWORD PTR [ebp+0xc]
+<+16>:	add    DWORD PTR [ebp+0x8],eax
+<+19>:	mov    edx,DWORD PTR [ebp+0x8]
+<+22>:	mov    eax,DWORD PTR [ebp+0x10]
+<+25>:	add    eax,edx
+<+27>:	mov    DWORD PTR [ebp+0xc],eax
+<+30>:	mov    eax,DWORD PTR [ebp+0xc]
+<+33>:	add    DWORD PTR [ebp+0x10],eax
+<+36>:	mov    eax,DWORD PTR [ebp-0x4]
+<+39>:	cmp    eax,DWORD PTR [ebp+0x10]
+<+42>:	jbe    0x804845d <donkiestembly+82>
+<+44>:	mov    eax,DWORD PTR [ebp-0x4]
+<+47>:	imul   eax,DWORD PTR [ebp+0xc]
+<+51>:	mov    DWORD PTR [ebp-0x4],eax
+<+54>:	mov    eax,DWORD PTR [ebp+0xc]
+<+57>:	sub    DWORD PTR [ebp-0x4],eax
+<+60>:	jmp    0x804845d <donkiestembly+82>
+<+62>:	mov    eax,DWORD PTR [ebp-0x4]
+<+65>:	mov    edx,0x0
+<+70>:	div    DWORD PTR [ebp+0x8]
+<+73>:	mov    DWORD PTR [ebp-0x4],eax
+<+76>:	mov    eax,DWORD PTR [ebp-0x4]
+<+79>:	xor    DWORD PTR [ebp+0xc],eax
+<+82>:	cmp    DWORD PTR [ebp-0x4],0x2
+<+86>:	ja     0x8048449 <donkiestembly+62>
+<+88>:	mov    eax,DWORD PTR [ebp+0xc]
+<+91>:	leave  
+<+92>:	ret 

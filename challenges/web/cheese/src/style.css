@@ -1,0 +1,64 @@
+.header {
+    background-image: url("tomjerry.jpg");
+    background-size: 100%;
+    padding: 230px;
+    text-align: center;
+    color: rgb(255, 245, 107);
+    font-family: "Bangers", cursive;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+.loginbox{
+  background-color: rgb(77, 65, 33);
+  margin: 5% 10%;
+  padding: 3%;
+  border: rgb(233, 210, 78) solid 1px;
+}
+
+input{
+  background-color: rgb(243, 235, 189);
+  padding: 12px 20px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px;
+}
+
+#verify:hover{
+  background-color: rgb(204, 185, 100);
+  transition-duration: 0.5s;
+}
+
+body{
+  margin: 0px;
+  font-family: 'Old Standard TT', serif;
+  background-color: rgb(107, 106, 105);
+  color: rgb(226, 216, 184);
+}
+
+p{
+  margin: 5%;
+  font-size: 30px;
+}
+
+h2{
+  margin: 5%;
+  color: rgb(244, 161, 255);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+.smalltext{
+  font-size: 10px;
+}
+
+.footer {
+    background-color: rgb(104, 93, 33);
+    padding: 10px;
+    text-align: center;
+}

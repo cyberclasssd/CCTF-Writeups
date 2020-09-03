@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mysql:
+    build: "./snocs lair/mysql"
+    ports:
+      - 127.0.0.1:3306:3306
+  web:
+    build: .
+    ports:
+      - 127.0.0.1:80:80

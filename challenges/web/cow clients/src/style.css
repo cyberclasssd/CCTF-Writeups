@@ -1,0 +1,81 @@
+.header {
+    background-image: url("https://i.pinimg.com/originals/d3/4c/f8/d34cf820505d6135e6667eadba5c6b5f.jpg");
+    background-size: 100% ;
+    padding: 50px;
+    text-align: center;
+    color: rgb(66, 159, 247);
+    font-family: Pangolin, cursive;
+    font-size: 70px;
+    letter-spacing: 0.2em;
+}
+
+body{
+  margin: 0px;
+  font-family: Rubik, sans-serif;
+  background-color: rgb(207, 214, 226);
+  color: rgb(87, 165, 211);
+}
+
+p{
+  margin: 3%;
+  font-size: 30px;
+}
+
+h2{
+  margin: 7% 3%;
+  color: rgb(230, 136, 133);
+  font-weight: bold;
+  font-size: 70px;
+  font-family: Pangolin, cursive;
+}
+
+.button {
+  transition-duration: 0.4s;
+  font-family: Pangolin, cursive;
+  font-size: 20px;
+  background-color: rgb(230, 48, 102);
+  color: rgb(240, 207, 185);
+  padding: 2% 5%;
+  margin: 5% 40% 5% 40%;
+  border: none;
+}
+
+.loginbox{
+  background-color: rgb(184, 210, 236);
+  margin: 5% 10%;
+  padding: 3%;
+  border: rgb(241, 191, 191) solid 1px;
+}
+
+input{
+  background-color: rgb(245, 237, 239);
+  padding: 12px 20px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+  border: none;
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+}
+
+#hiddenMessage{
+  margin: 0% 5% 5%;
+}
+
+.button:hover {
+  background-color: rgb(255, 149, 167);
+  color: rgb(213, 240, 255);
+}
+
+.smalltext{
+  font-size: 10px;
+}
+
+.footer {
+    background-color: #bdcfdd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Welcome to the CSS page! Here you find all of the magic behind making our website look pretty. Part 2/3 of the flag: 0_w3b_exp */
